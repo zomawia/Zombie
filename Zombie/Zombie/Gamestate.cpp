@@ -25,7 +25,7 @@ void GameState::drawStatus() const
 
 void GameState::drawRound() const
 {
-	printf("\nCombat Round: \n");
+	printf("\n##### Combat Round ##### \n");
 	for (int i = 0; i < Z_COUNT; ++i)
 		zombies[i].draw(false);
 }

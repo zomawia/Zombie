@@ -29,8 +29,10 @@ void main()
 	while (!gs.isGameOver())
 	{
 		gs.update();
-		gs.drawRound();		
+		gs.drawRound();				
 		getchar();
+
+		if (gs.isGameOver()) printf("Game over. ");
 	}
 
 	getchar();
